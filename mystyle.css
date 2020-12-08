@@ -1,0 +1,61 @@
+* {
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+}
+header {
+    height: 250px;
+    background-image: url("ROSWELL\ TITLE.png");
+    background-size: cover; 
+    background-position: center;
+    padding: 40px;
+    margin: 40px;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Gugi', cursive;
+}
+nav div {
+    width:30%;
+    background-color:darkgray;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 40px;
+    margin: 0px;
+  }
+main img {
+    width: 800px;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    margin: 50px;
+    justify-content: space-between;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
